@@ -2,7 +2,7 @@
 
 session_start();
 
-if(!isset($_SESSION["user_ids"])){
+if(!isset($_SESSION["user_idsd"])){
     
     header("location:../../view/login.php");
     session_start();
